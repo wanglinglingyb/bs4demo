@@ -1,0 +1,39 @@
+.side{
+	background: #283643;
+	width: 12rem;
+	position: fixed;
+	top: 3.5rem;
+	bottom: 0;
+	margin-bottom: 0;
+}
+.side1{
+	padding-left: 0;
+}
+.side .active{
+	background: #3c4248;
+}
+.side a{
+	display: block;
+	padding: 0 2rem;
+	text-decoration: none;
+	color: #fff;
+	height: 3rem;
+	line-height: 3rem;
+}
+.side a:hover{
+	background: #3c4248;
+}
+.main{
+	overflow: auto;
+	position: fixed;
+	top:3.5rem;
+	bottom: 0;
+	left: 12rem;
+	right: 0;
+}
+h6{
+	height: 3rem;
+	line-height: 3ren;
+	color: #6c757d;
+	border-bottom: 2px solid #e9ecef;
+}
